@@ -8,8 +8,10 @@
 	    ch++;
 	    continue;
         }
+            if(ch >48)
 	     putchar(',');
-	     putchar(ch);
+
+	    putchar(ch);
 	     ch++;
        }
 	putchar('\n');
