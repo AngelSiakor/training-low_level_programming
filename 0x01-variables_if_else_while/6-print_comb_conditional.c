@@ -9,11 +9,11 @@
 	        continue;
 
 	 }
-
-		 putchar(ch);
-	            putchar(',');
-	 
-	    	 ch++;
+            if(ch > 48)
+		 putchar(',');
+		
+	    putchar(ch);
+   	    ch++;
 	 }
 
 
