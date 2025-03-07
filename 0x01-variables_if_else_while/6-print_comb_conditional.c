@@ -10,15 +10,13 @@
 
 	 }
             if(ch > 48)
-	{
-		    
+	    {
 		 putchar(',');
-		 putchar(' ');
+	         putchar(' ');
 	 }
-              putchar(ch);
-   	    ch++;
-       }
-
-             putchar ('\n');
+	      putchar(ch);
+               ch++;
+	 }
+             putchar('\n');
 	     return 0;
  }
