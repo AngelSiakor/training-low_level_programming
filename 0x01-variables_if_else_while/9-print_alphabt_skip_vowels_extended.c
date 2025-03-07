@@ -1,0 +1,24 @@
+#include <stdio.h>
+ int main(void){
+	 char str[] = "Letters skipped: 5" ;
+	 int a = 97;
+         int p = 0 ;
+	 while(a <= 122) {
+		if(a == 97 || a== 101 || a == 105 || a == 111 || a == 117){
+			 a++;
+			 continue ;
+		}
+		       putchar(a);
+		       a++;
+		     
+	 }
+	    putchar('\n');
+		      
+		for(; str[p] != '\0' ;p++){
+		  putchar(str[p]);;
+		}
+                  putchar('\n');
+
+		return 0;
+		}
+
