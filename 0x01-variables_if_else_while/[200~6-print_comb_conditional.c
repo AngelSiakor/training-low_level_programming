@@ -8,7 +8,7 @@
 	    ch++;
 	    continue;
         }
-            if(ch >48)
+            if(ch > 48)
 	     putchar(',');
 
 	    putchar(ch);
