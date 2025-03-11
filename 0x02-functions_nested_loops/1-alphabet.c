@@ -1,5 +1,18 @@
-#include "practice.h"
+#include "main.h"
 
 /**
- * main - Prints the alphabet
+ * print_alphabet - Prints the alphabet
+ *
+ * Return: return void.
  */
+void print_alphabet(void)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
+}
+
