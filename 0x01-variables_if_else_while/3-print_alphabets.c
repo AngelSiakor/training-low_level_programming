@@ -5,15 +5,15 @@ int main (void)
 	int A = 65;
 	
 	while(a <= 122)
-{
-	putchar(a);
+	{
+		putchar(a);
 		a++;
-}
+	}
 	while(A <=90)
-{
-	putchar(A);
+	{
+		putchar(A);
 		A++;
-}
+	}
 	putchar('\n');
 
 	return (0);
