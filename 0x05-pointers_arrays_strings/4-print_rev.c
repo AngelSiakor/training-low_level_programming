@@ -5,17 +5,14 @@
 void print_rev(char *s)
 {
 	int i;
-	int j;
-	int c;
+	int len = strlen(s);
 
-	 c=s[i];
-	 s[i]=s[j];
-	 s[j]=c;
-
-	for (i = 0; i < j; j--)
+	for (i = len - 1; i >= 0 ; i--)
 	{
-		_putchar(s[c]);
+		_putchar(s[i]);
 	
 	}
+
+	_putchar('\n');
 
 }
