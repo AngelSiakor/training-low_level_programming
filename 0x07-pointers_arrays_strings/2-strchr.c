@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strchr - fills memory with abyte
+ * _strchr - locates a character in a string
  * @s: the string to check
  * @c: the character
  *

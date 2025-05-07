@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * _memset - fills memory with constant byte
+ * @s: the string
+ * @b: the character
+ * @n: the maximum element
+ *
+ * Return: s
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -11,5 +19,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b;
 	}
 
-	return s;
+	return (s);
 }
